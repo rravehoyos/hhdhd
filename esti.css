@@ -1,0 +1,32 @@
+p{
+	margin: -2%;
+	margin-left: 20%;
+	font-family: ricardo;
+	font-size: 40px;
+
+}
+@font-face{
+	font-family:ricardo;
+	src: url(hola.otf);
+}
+.reloj{
+	position: absolute;
+	top: 10%;
+	left: 45%;
+	height: 10%;
+	width: 15%;
+	background:#F5A9BC;
+	border: solid black 2px;
+	animation-name: cambio;
+ 	animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes cambio {
+  0%   {background:#F5A9BC;}
+  25%  {background:#81F7BE;}
+  50%  {background:#E1F5A9;}
+  75%  {background:#8181F7;}
+}
